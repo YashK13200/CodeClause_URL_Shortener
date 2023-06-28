@@ -1,0 +1,125 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+body{
+    /* background-color: #E1AEFF; */
+    background-image: url(pexels.jpg);
+        background-size: cover;
+        /* background-repeat: no-repeat; */
+        /* height: 100vh; */
+    }
+    .wrap{
+        font-family: 'Sarabun', sans-serif;
+        font-size: 45px;
+        position: relative;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        top: 120px;
+        font-size: 35px;
+        color: white;
+
+    }
+    .main{
+    position: relative;
+    /* background-color: rgb(234, 181, 255); */
+    background: transparent;
+    height: 270px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    border: 1px solid white;
+    border-radius: 60px;
+    }
+    #longurl{
+        position: relative;
+        top: 40%;
+        left: 10%;
+        height: 40px;
+        width: 296px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+        font-size: large;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    #shorten{
+        position: relative;
+        top: 40%;
+        left: 12%;
+        height: 40px;
+        width: 80px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: large;
+        font-weight: bold;
+        font-family: monospace;
+        color: white;
+        background-color: black
+    }
+    #shorten:hover{
+        background-color: orange;
+    }
+    
+    #shorturl{
+        position: relative;
+        top: 45%;
+        left: 10%;
+        height: 40px;
+        width: 270px;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 47px;
+        font-size: large;
+        font-family: monospace;
+        font-weight: bold;
+    }
+    
+    #copy{
+        position: relative;
+        top: 45%;
+        left: 0%;
+        height: 35px;
+        width: 35px;
+        border: 2px solid black;
+        border-radius: 10px;
+        color: black;
+        background-color: black;
+    }
+    
+    #copy:hover{
+        background-color: orange;
+    }
+    .main p{
+        position: relative;
+        top: 30%;
+        left: 13%;
+        height: 60px;
+        width: 400px;
+        font-size: 50px;
+        font-family: monospace;
+        font-weight: bold;
+        color: rgb(160, 0, 0);
+    }
+    .material-symbols-outlined{
+
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    color: white;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    }
